@@ -7,8 +7,68 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="test">emmy awards</div>
-    <p id="array-list"></p>
+     <div class="main">
+          <div class="container">
+                <div class="catalogue">CATALOGUE</div>
+                <div class="list-items"> 
+                    <div class="items" onclick="document.getElementById('modal1').style.display='block'">
+                        <div class="title"><a class="number">1.</a> Title</div>
+                        <div class="body">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Vitae repudiandae totam sequi exercitationem quis quisquam 
+                            odit dolores delectus maiores quos doloremque ipsa eveniet 
+                            corporis natus voluptatibus, excepturi quaerat? Cum, autem!</div>
+                    </div>
+                    
+                    <div class="items" onclick="document.getElementById('modal2').style.display='block'">
+                        <div class="title"><a class="number">1.</a> Title</div>
+                        <div class="body">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Vitae repudiandae totam sequi exercitationem quis quisquam 
+                            odit dolores delectus maiores quos doloremque ipsa eveniet 
+                            corporis natus voluptatibus, excepturi quaerat? Cum, autem!</div>
+                    </div>
+
+                </div>
+         </div>
+    </div>
+
+    <div id="modal1" class="modal-bg">
+
+        <div class="modals">
+                    <div class="modal-list">
+    
+                        <div class="modal-items" >
+                            <span class="close" onclick="document.getElementById('modal1').style.display='none'">&times;</span>
+                            <div class="modal-title"> Title</div>
+                            <div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Vitae repudiandae totam sequi exercitationem quis quisquam 
+                                odit dolores delectus maiores quos doloremque ipsa eveniet 
+                                corporis natus voluptatibus, excepturi quaerat? Cum, autem!</div>
+                        </div>
+
+                    </div> 
+        </div>
+
+    </div>
+
+    <div id="modal2" class="modal-bg">
+
+        <div class="modals">
+                    <div class="modal-list">
+    
+                        <div class="modal-items" >
+                            <span class="close" onclick="document.getElementById('modal2').style.display='none'">&times;</span>
+                            <div class="modal-title"> Title</div>
+                            <div class="modal-body"> 222 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Vitae repudiandae totam sequi exercitationem quis quisquam 
+                                odit dolores delectus maiores quos doloremque ipsa eveniet 
+                                corporis natus voluptatibus, excepturi quaerat? Cum, autem!</div>
+                        </div>
+
+                    </div> 
+        </div>
+
+    </div>
+        
 
     <script src="script.js"> </script>
 </body>

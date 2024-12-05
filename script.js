@@ -25,6 +25,3 @@ async function renderData() {
 // Call the renderData function
 renderData();
 
-document.getElementById("test").onclick = function(){
-    document.getElementById("test").textContent = "you clicked me"
-}
